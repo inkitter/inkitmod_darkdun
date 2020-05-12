@@ -1,0 +1,241 @@
+{
+ "buffs":
+ [
+    {
+        "id" : "inkit_bleed_resist",
+        "stat_type" : "resistance",
+        "stat_sub_type" : "bleed",
+        "amount" : 1,
+        "duration_type" : "quest_end",
+        "duration" : 1,
+        "remove_if_not_active" : false,
+        "rule_type" : "always",
+        "is_false_rule" : false,
+        "rule_data" : {
+        "float" : 0,
+        "string" : ""
+        }
+    },
+    {
+        "id" : "inkit_disease_resist",
+        "stat_type" : "resistance",
+        "stat_sub_type" : "disease",
+        "amount" : 1,
+        "remove_if_not_active" : false,
+        "rule_type" : "always",
+        "is_false_rule" : false,
+        "rule_data" : {
+        "float" : 0,
+        "string" : ""
+        }
+    },
+    {
+        "id" : "inkit_debuff_resist",
+        "stat_type" : "resistance",
+        "stat_sub_type" : "debuff",
+        "amount" : 1,
+        "remove_if_not_active" : false,
+        "rule_type" : "always",
+        "is_false_rule" : false,
+        "rule_data" : {
+        "float" : 0,
+        "string" : ""
+        }
+    },
+    {
+        "id" : "inkit_poison_resist",
+        "stat_type" : "resistance",
+        "stat_sub_type" : "poison",
+        "amount" : 1,
+        "remove_if_not_active" : false,
+        "rule_type" : "always",
+        "is_false_rule" : false,
+        "rule_data" : {
+           "float" : 0,
+           "string" : ""
+        }
+    },
+    {
+        "id" : "inkit_move_resist",
+        "stat_type" : "resistance",
+        "stat_sub_type" : "move",
+        "amount" : 1,
+        "remove_if_not_active" : false,
+        "rule_type" : "always",
+        "is_false_rule" : false,
+        "rule_data" : {
+           "float" : 0,
+           "string" : ""
+        }
+    },
+    {
+        "id" : "inkit_stun_resist",
+        "stat_type" : "resistance",
+        "stat_sub_type" : "stun",
+        "amount" : 1,
+        "remove_if_not_active" : false,
+        "rule_type" : "always",
+        "is_false_rule" : false,
+        "rule_data" : {
+           "float" : 0,
+           "string" : ""
+        }
+    },
+    {
+        "id" : "inkit_death_resist",
+        "stat_type" : "resistance",
+        "stat_sub_type" : "death_blow",
+        "amount" : 1,
+        "remove_if_not_active" : false,
+        "rule_type" : "always",
+        "is_false_rule" : false,
+        "rule_data" : {
+           "float" : 0,
+           "string" : ""
+        }
+    },
+    {
+        "id" : "inkit_trap_resist",
+        "stat_type" : "resistance",
+        "stat_sub_type" : "trap",
+        "amount" : 1,
+        "remove_if_not_active" : false,
+        "rule_type" : "always",
+        "is_false_rule" : false,
+        "rule_data" : {
+           "float" : 0,
+           "string" : ""
+        }
+    },
+    {
+        "id" : "inkit_scouting",
+        "stat_type" : "scouting_chance",
+        "stat_sub_type" : "",
+        "amount" : 1,
+        "remove_if_not_active" : false,
+        "rule_type" : "always",
+        "is_false_rule" : false,
+        "rule_data" : {
+           "float" : 0,
+           "string" : ""
+        }
+    },
+    {
+        "id" : "inkit_quirk",
+        "stat_type" : "remove_negative_quirk_chance",
+        "stat_sub_type" : "",
+        "amount" : 1,
+        "remove_if_not_active" : false,
+        "rule_type" : "always",
+        "is_false_rule" : false,
+        "rule_data" : {
+           "float" : 0,
+           "string" : ""
+        }
+    },
+    {
+        "id" : "inkit_food",
+        "stat_type" : "food_consumption_percent",
+        "stat_sub_type" : "",
+        "amount" : -1,
+        "remove_if_not_active" : false,
+        "rule_type" : "always",
+        "is_false_rule" : false,
+        "rule_data" : {
+           "float" : 0,
+           "string" : ""
+        }
+    },
+    {
+        "id" : "inkit_resolve",
+        "stat_type" : "resolve_check_percent",
+        "stat_sub_type" : "",
+        "amount" : 1,
+        "remove_if_not_active" : false,
+        "rule_type" : "always",
+        "is_false_rule" : false,
+        "rule_data" : {
+           "float" : 0,
+           "string" : ""
+        }
+    },
+    {
+        "id" : "inkit_maxhp",
+        "stat_type" : "combat_stat_add",
+        "stat_sub_type" : "max_hp",
+        "amount" : 120,
+        "remove_if_not_active" : false,
+        "rule_type" : "always",
+        "is_false_rule" : false,
+        "rule_data" : {
+           "float" : 0,
+           "string" : ""
+        }
+    },
+    {
+        "id" : "inkit_atkrating",
+        "stat_type" : "combat_stat_add",
+        "stat_sub_type" : "attack_rating",
+        "amount" : 0.5,
+        "remove_if_not_active" : false,
+        "rule_type" : "always",
+        "is_false_rule" : false,
+        "rule_data" : {
+           "float" : 0,
+           "string" : ""
+        }
+    },
+    {
+        "id" : "inkit_spdrating",
+        "stat_type" : "combat_stat_add",
+        "stat_sub_type" : "speed_rating",
+        "amount" : 7,
+        "remove_if_not_active" : false,
+        "rule_type" : "always",
+        "is_false_rule" : false,
+        "rule_data" : {
+           "float" : 0,
+           "string" : ""
+        }
+    },
+    {
+        "id" : "inkit_defrating",
+        "stat_type" : "combat_stat_add",
+        "stat_sub_type" : "defense_rating",
+        "amount" : 0.55,
+        "remove_if_not_active" : false,
+        "rule_type" : "always",
+        "is_false_rule" : false,
+        "rule_data" : {
+           "float" : 0,
+           "string" : ""
+        }
+    },
+    {
+        "id" : "inkit_sterating",
+        "stat_type" : "stress_dmg_received_percent",
+        "stat_sub_type" : "",
+        "amount" : -2,
+        "remove_if_not_active" : false,
+        "rule_type" : "always",
+        "is_false_rule" : false,
+        "rule_data" : {
+           "float" : 0,
+           "string" : ""
+        }
+    },
+    {
+        "id" : "inkit_prtrating",
+        "stat_type" : "combat_stat_add",
+        "stat_sub_type" : "protection_rating",
+        "amount" : 0.6,
+        "remove_if_not_active" : false,
+        "rule_type" : "always",
+        "is_false_rule" : false,
+        "rule_data" : {
+           "float" : 0,
+           "string" : ""
+        }
+    }
+ ]
+}

@@ -1,0 +1,12 @@
+effect: .name "Hero Strong Stun G" .target "target" .curio_result_type "negative" .chance 200% .stun 2 .on_hit true .on_miss true .queue true
+
+effect: .name "holy_water" .target "performer" .item 1 .chance 100% .buff_ids inkit_resolve inkit_bleed_resist inkit_disease_resist inkit_debuff_resist inkit_poison_resist inkit_move_resist inkit_stun_resist inkit_death_resist inkit_trap_resist
+
+effect: .name "BH Mark Target"	.target "target" .curio_result_type "positive" .chance 100%	.tag 1  .duration 5	.on_hit true .on_miss true
+effect: .name "Arb Mark Target".target "target" .curio_result_type "positive" .chance 100%	.tag 1  .duration 5	.on_hit true .on_miss true
+effect: .name "HM Mark Target"	.target "target" .curio_result_type "positive" .chance 100%	.tag 1  .duration 5	.on_hit true .on_miss true
+effect: .name "Mark Target"	.target "target" .curio_result_type "positive" .chance 100%	.tag 1  .duration 5	.on_hit true .on_miss false
+
+effect: .name "HealSelf G" .target "performer_group" .curio_result_type "positive" .chance 100% .heal 20 .cure 1 .on_hit true .on_miss true .queue true .source_heal_type hero_skill .apply_once true
+effect: .name "HealSelfStress G" .target "performer_group" .curio_result_type "positive" .chance 100% .healstress 20 .on_hit true .on_miss true .queue true
+effect: .name "Blood G" .target "performer_group" .chance 300% .disease inkitblood .on_hit true .on_miss true

@@ -1,0 +1,11 @@
+inventory_item:	.type "gold"		.id ""					.base_stack_limit 175000	.purchase_gold_value 0			.sell_gold_value 0
+inventory_item:	.type "provision"	.id ""				    .base_stack_limit 240	    .purchase_gold_value 5			.sell_gold_value 5
+
+
+inventory_item:	.type "heirloom"	.id "portrait"			.base_stack_limit 500		.purchase_gold_value 0			.sell_gold_value 0
+inventory_item:	.type "heirloom"	.id "bust"				.base_stack_limit 500		.purchase_gold_value 0			.sell_gold_value 0
+inventory_item:	.type "heirloom"	.id "crest"				.base_stack_limit 500	    .purchase_gold_value 0			.sell_gold_value 0
+inventory_item:	.type "heirloom"	.id "deed"				.base_stack_limit 500		.purchase_gold_value 0			.sell_gold_value 0
+inventory_item:	.type "heirloom"	.id "urn"				.base_stack_limit 500		.purchase_gold_value 0			.sell_gold_value 0
+inventory_item:	.type "estate"      .id "the_blood"			.base_stack_limit 500	    .purchase_gold_value 0	        .sell_gold_value 0 .estate_can_be_provision true .tutorial_id "the_blood"
+inventory_item:	.type "estate"      .id "the_cure"			.base_stack_limit 500       .purchase_gold_value 0	        .sell_gold_value 0 .estate_can_be_provision true .sfx_override "/general/items/holy_water"

@@ -1,0 +1,39 @@
+{
+   "quirks":
+   [
+      {
+         "id" : "inkitblood",
+         "show_explicit_buff_description" : true,
+         "show_flavor_description" : false,
+         "show_explicit_curio_tag_description" : false,
+         "random_chance" : 0.0,
+         "is_positive" : false,
+         "is_disease" : true,
+         "classification" : "physical",
+         "incompatible_quirks" : 
+         [
+            "disease_vampire_crave", "disease_vampire_wasting", "disease_vampire_blood_lust"
+         ],
+         "curio_tag" : "",
+         "curio_tag_chance" : 0.0,
+         "keep_loot" : false,
+         "buffs" : 
+         [
+            "inkit_scouting",
+            "inkit_quirk",
+            "inkit_food",
+            "inkit_maxhp",
+            "inkit_resolve",
+            "inkit_atkrating",
+            "inkit_spdrating",
+            "inkit_defrating",
+            "inkit_sterating",
+            "inkit_prtrating"
+         ],
+         "can_remove_with_camping_skill" : false,
+         "can_modify_in_activity" : true,
+         "can_be_replaced_by_new_quirk" : false,
+         "slot_size" : 3
+      }
+   ]
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<PreviewIconFile>mao1024.png</PreviewIconFile>
+	<ItemDescriptionShort/>
+	<ModDataPath>D:\SteamLibrary\steamapps\common\DarkestDungeon\mods\Inkitmod</ModDataPath>
+	<Title>Inkitmod</Title>
+	<Language>english</Language>
+	<UpdateDetails/>
+	<Visibility>public</Visibility>
+	<UploadMode>direct_upload</UploadMode>
+	<VersionMajor>0</VersionMajor>
+	<VersionMinor>0</VersionMinor>
+	<TargetBuild>0</TargetBuild>
+	<Tags>
+		<Tags>Class Tweaks</Tags>
+	</Tags>
+	<ItemDescription/>
+	<PublishedFileId></PublishedFileId>
+</project>
+
